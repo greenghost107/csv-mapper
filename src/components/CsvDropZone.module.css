@@ -1,0 +1,48 @@
+.zone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 2rem 1rem;
+  border: 2px dashed var(--border);
+  border-radius: 8px;
+  background: var(--bg);
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s;
+  outline: none;
+  user-select: none;
+}
+
+.zone:hover,
+.zone:focus-visible {
+  border-color: var(--primary);
+  background: #eff6ff;
+}
+
+.dragOver {
+  border-color: var(--primary);
+  background: #dbeafe;
+}
+
+.hiddenInput {
+  display: none;
+}
+
+.icon {
+  width: 2rem;
+  height: 2rem;
+  color: var(--text-secondary);
+}
+
+.placeholder {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  text-align: center;
+}
+
+.fileName {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text);
+}
