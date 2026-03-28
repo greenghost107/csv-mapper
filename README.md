@@ -2,7 +2,7 @@
 
 A browser-based tool for remapping CSV columns from a source file into a target schema. Upload two CSVs, visually map columns, set defaults, compute derived values, and download the converted result.
 
-Built for traders who need to reformat broker exports into trading journal import formats (e.g., WaveGod AI), but works for any CSV-to-CSV transformation.
+Built for traders who need to reformat broker exports into trading journal import formats, but works for any CSV-to-CSV transformation.
 
 **No backend. No login. Runs entirely in your browser.**
 
@@ -76,7 +76,7 @@ Date,Symbol,Side,Entry,Exit,Hold
 3/25/2026,BKV,LONG,$30.10,-,
 ```
 
-**Target** (WaveGod AI schema):
+**Target** (trading journal schema):
 ```csv
 symbol,side,entry_price,exit_price,entry_date,exit_date
 ```
